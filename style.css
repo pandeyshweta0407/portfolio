@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Concert One, Josefin Sans ,Playpen Sans, Poppins ;
+    font-family: Poppins ;
 }
 
 body{
@@ -240,6 +240,7 @@ body{
     text-align: center;
     font-size: 40px;
     font-weight: 900;
+    margin-top: 20px;
  }
 
 
@@ -565,7 +566,7 @@ body{
 
   .contact-right{
      width: 550px;
-     height: 400px;
+     height: 520px;
      margin: 40px;
      display: flex;
      flex-direction: column;
@@ -580,21 +581,27 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    
   }
 
   .contact-right form input{
     width: 500px;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 10px;
     background-color: rgb(26, 20, 4);
     color: rgb(157, 151, 140);
+    margin: 5px;
+    padding: 5px ;
+    color: aliceblue;
   }
   .contact-right form textarea{
     width: 500px;
-    font-size: 35px;
+    font-size: 25px;
     border-radius: 10px;
     background-color: rgb(26, 20, 4);
+    color: aliceblue;
+    margin: 5px;
+    padding: 5px ;
   }
 
   .send{
