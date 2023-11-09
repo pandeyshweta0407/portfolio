@@ -87,14 +87,18 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(./resource/img.jpg) no-repeat;
+    background: white;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
 }
-
+ 
+.home_img img{
+  width: 600px;
+  height: 500px;
+}
 .home-content{
     max-width: 600px;
 }
@@ -636,7 +640,10 @@ body{
   }
 
   @media (max-width: 700px) {
-  
+    .home_img{
+      width:  200px;
+      height: 400px;
+    }
     
      
     }
