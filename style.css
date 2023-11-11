@@ -13,30 +13,37 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-    
+  overflow-x: hidden;
 }
 
 .header{
-    width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+    width: 100vmax;
+    margin: auto;
+    height: 100px;
     background-color:#E5D4FF ;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+   z-index:1 ;
+    
+   
 }
 
 .logo{
-    position: relative;
     font-size: 40px;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
     cursor: default;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     opacity: 0;
     animation: slideRight 1s ease forwards;
+    margin-left: 100px;
 }
 
 /* @keyframes identifier {
@@ -61,7 +68,7 @@ body{
     transition: .3s;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-right: 30px ;
     cursor: pointer;
     opacity: 0;
     animation: slideTop 1s ease forwards;
@@ -84,10 +91,13 @@ body{
 
 
 .home{  
+  position: relative;
     width: 100%;
+    height: 100vh;
     background: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
+    align-items: center;
 }
  
 .home_img {
@@ -193,10 +203,14 @@ body{
  }
 
  .about{
-   width: 100%;
+  position: relative;
+  width: 100%;
+   height: 100vh;
    display: inline;
    justify-content: center;
    align-items: center;
+   background: rgb(93, 70, 3);
+   
    
  }
 
@@ -232,6 +246,7 @@ body{
 
 
   .skills{
+    position: relative;
     background-color: white;
     width: 100%;
     color:#219C90  ;
@@ -472,6 +487,7 @@ body{
   
 
   .project{
+    position: relative;
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -530,6 +546,7 @@ body{
   }
 
   .contact{
+    position: relative;
     width: 100%;
     display: flex;
    flex-direction: column;
@@ -629,6 +646,7 @@ body{
   }
 
   .footer{
+    position: relative;
     width: 100%;
     height: 100px;
     background-color: black  ;
