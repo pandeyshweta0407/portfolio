@@ -22,7 +22,6 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
 }
 
 .header{
@@ -70,7 +69,9 @@ body{
 }
 }
 
-
+.navbar{
+  margin-right:  40px;
+}
 .navbar a{
     display: inline-block;
     font-size: 25px;
@@ -291,8 +292,12 @@ body{
  
 
  .skills_info {
-    display: inline;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
  }
 
  .skills_info div{
@@ -314,14 +319,6 @@ body{
   }
  }
 
- .skills_img{
-    position: relative;
-    left: -100px;
-    width: 500px;
-    height: 300px;
-    border-radius: 50px;
-    margin-top: 20px;
- }
 
  
 
@@ -331,7 +328,7 @@ body{
  }
 
  .skill-topics{
-    display: inline;
+    display: flex;
     margin: 10px;
     font-size: 25px;
     text-align: center;
@@ -342,6 +339,7 @@ body{
  .bar{
     width: 400px;
     height:5px;
+   margin: 20px;
     background: white;
     border: 2px solid black ;
     border-radius:20px ;
@@ -537,9 +535,6 @@ body{
      background-color: rgb(41, 59, 62) ;
   }
 
-  
-
-
   .project_img{
     font-size: 25px;
     width: 400px;
@@ -664,7 +659,6 @@ body{
     align-items: center;
   }
 
-
   .footer-text{
   font-size: 20px;
   }
@@ -674,23 +668,14 @@ body{
   }
 
   @media (min-width: 100px) and (max-width: 700px) {
-    .home_img{
-      width:  200px;
-      height: 400px;
-    }
+   
     .content-box{
       position: relative;
-      left:200px;
+      left:450px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-     
     }
 
-    
-
-   
-    
-     
     }
